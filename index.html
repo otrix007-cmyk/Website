@@ -3,71 +3,81 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Esel</title>
+
+  <title>Home | Esel</title>
+
   <meta
     name="description"
-    content="Explore Esel, a world of magic, mystery, and adventure."
+    content="Explore Esel, a fantasy world filled with magic, mystery, factions, and adventure."
   />
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header class="site-header">
     <div class="container">
-      <h1 class="logo">Esel</h1>
+      <a class="logo" href="index.html">Esel</a>
+
       <nav class="main-nav" aria-label="Main navigation">
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#regions">Regions</a></li>
-          <li><a href="#factions">Factions</a></li>
-          <li><a href="#characters">Characters</a></li>
-          <li><a href="#lore">Lore</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="regions.html">Regions</a></li>
+          <li><a href="factions.html">Factions</a></li>
+          <li><a href="characters.html">Characters</a></li>
+          <li><a href="lore.html">Lore</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main>
-    <section id="home" class="hero">
+    <section class="hero">
       <div class="container">
-        <h2>Welcome to Esel</h2>
-        <p>A world of magic, mystery, and adventure</p>
-        <a class="btn" href="#regions">Explore</a>
+        <h1>Welcome to Esel</h1>
+
+        <p>
+          A world of ancient kingdoms, dangerous magic, and stories waiting to be discovered.
+        </p>
+
+        <a class="btn" href="regions.html">Explore the World</a>
       </div>
     </section>
 
     <section class="features">
       <div class="container">
         <div class="card-grid">
-          <article id="regions" class="card">
-            <h3>Regions</h3>
+          <article class="card">
+            <h2>Regions</h2>
             <p>
-              Discover the many lands of Esel, from ancient forests to ruined
-              kingdoms and hidden magical frontiers.
+              Explore forests, ruined kingdoms, deserts, and hidden magical frontiers across Esel.
             </p>
+            <a class="btn" href="regions.html">Learn More</a>
           </article>
 
-          <article id="factions" class="card">
-            <h3>Factions</h3>
+          <article class="card">
+            <h2>Factions</h2>
             <p>
-              Learn about the powers shaping the world, including noble houses,
-              rebel groups, guilds, and secret orders.
+              Discover the noble houses, guilds, and secret organizations fighting for power.
             </p>
+            <a class="btn" href="factions.html">Learn More</a>
           </article>
 
-          <article id="characters" class="card">
-            <h3>Characters</h3>
+          <article class="card">
+            <h2>Characters</h2>
             <p>
-              Meet the heroes, villains, rulers, and wanderers whose choices
-              shape the fate of Esel.
+              Meet heroes, villains, rulers, travelers, and legends that shape the fate of Esel.
             </p>
+            <a class="btn" href="characters.html">Learn More</a>
           </article>
 
-          <article id="lore" class="card">
-            <h3>Lore</h3>
+          <article class="card">
+            <h2>Lore</h2>
             <p>
-              Uncover the myths, legends, and forgotten history that give Esel
-              its depth and mystery.
+              Uncover forgotten history, ancient myths, and magical mysteries hidden throughout the world.
             </p>
+            <a class="btn" href="lore.html">Learn More</a>
           </article>
         </div>
       </div>
@@ -76,16 +86,42 @@
     <section class="about-world">
       <div class="container">
         <h2>About the World</h2>
+
         <p>
-          Esel is a fantasy world filled with ancient magic, rival powers, and
-          stories waiting to be uncovered. Every region has its own history,
-          culture, and dangers, making it a land shaped by conflict, mystery,
-          and adventure.
+          Esel is a fantasy world filled with ancient magic, rival kingdoms, forgotten ruins,
+          and dangerous mysteries. Every region has its own culture, history, and conflicts,
+          creating a world built around exploration and adventure.
         </p>
 
-        <div class="map-box" role="img" aria-label="Placeholder for a map of Esel">
-          <p>Map</p>
-        </div>
+        <img
+          class="feature-image"
+          src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&w=1400&q=80"
+          alt="Fantasy landscape showing mountains, forests, and ancient ruins in the world of Esel"
+        />
+      </div>
+    </section>
+
+    <section class="page-section">
+      <div class="container">
+        <h2>External Resources</h2>
+
+        <ul class="external-links">
+          <li>
+            <a href="https://www.w3schools.com/" target="_blank">
+              W3Schools Web Development
+            </a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/" target="_blank">
+              MDN Web Docs
+            </a>
+          </li>
+          <li>
+            <a href="https://unsplash.com/" target="_blank">
+              Unsplash Fantasy Images
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
   </main>
@@ -93,7 +129,7 @@
   <footer class="site-footer">
     <div class="container footer-content">
       <p>&copy; 2026 Esel</p>
-      <p>Links | Contact</p>
+      <p>Fantasy World Project Website</p>
     </div>
   </footer>
 </body>
