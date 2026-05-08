@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contact | Esel</title>
+  <meta name="description" content="Contact the creator of the Esel fantasy world website." />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Esel</a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="regions.html">Regions</a></li>
+          <li><a href="factions.html">Factions</a></li>
+          <li><a href="characters.html">Characters</a></li>
+          <li><a href="lore.html">Lore</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-section">
+      <div class="container">
+        <h1>Contact</h1>
+
+        <p>
+          Use this form to send a message about the world of Esel.
+        </p>
+
+        <form id="contactForm">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message"></textarea>
+
+          <button type="submit">Send Message</button>
+
+          <p id="formMessage"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Esel</p>
+      <p>Fantasy World Project Website</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
